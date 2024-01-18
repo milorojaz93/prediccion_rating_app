@@ -1,1 +1,1 @@
-# prediccion_rating_app
+# Predicción de Rating de aplciaciones moviles a traves de comentarios
