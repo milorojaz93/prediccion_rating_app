@@ -20,9 +20,25 @@ Este dataset incluye los comentarios traducidos al inglés de todos los usuarios
 | Sentiment|Positive/Negative/Neutral|
 | Sentiment_Subjectivity|Sentiment subjectivity score|
 
-  ### Info APPs
-  Este dataset incluye la información general de la aplicación que permite entender que tipo de aplicación es. dicho dataset tiene los siguientes datos:
-  |Campo|Descripción  |
+### Info APPs
+Este dataset incluye la información general de la aplicación que permite entender que tipo de aplicación es. dicho dataset tiene los siguientes datos:
+|Campo|Descripción  |
 |--|--|
+| App | Nombre de la app |
+| Category | Categoria que poertenece la app |
+| Rating | Calificacion de 0 a 5 de las aplicaciones |
+| Reviews | # de comentarios de sobre la app |
+| Size | Tamaño de la app en MB |
+| Installs | # de descargas de la app |
+| Type | Paga o Gratis |
+| Price | Precio en dolares |
+| Content Rating | Tipo de publico al que va dirigido |
+| Genres | multiple genero aparte de la Category |
+| Current Ver | Versión App |
+| Android Ver | Versión aNDROID objetivo |
 
 ## Funcionalidad
+![enter image description here](diagrana.drawio.png)
+
+1. Tenemos un dataset de reviews el cual tiene comentarios en ingles sobre las apps.
+2. Se realiza tratamiento de los datos e informaición
